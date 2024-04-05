@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         myWebView = findViewById(R.id.xml_Webview)
         myWebView.webViewClient = WebViewClient()
-        myWebView.loadUrl("https://en.wikipedia.org/wiki/Main_Page")
+        myWebView.loadUrl("https://trends.google.com/trends/")
     }
 
     @Deprecated("Deprecated in Java")
